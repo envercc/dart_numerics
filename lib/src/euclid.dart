@@ -83,7 +83,7 @@ int log2(int number) {
   number |= number >> 32;
 
   return multiplyDeBruijnBitPosition[
-      ((number - (number >> 1)) * 0x07EDD5E59A4E28C2) >> 58];
+      ((number - (number >> 1)) * 0x7edd5e59a4e28c0) >> 58];
 }
 
 List<int> multiplyDeBruijnBitPosition = [

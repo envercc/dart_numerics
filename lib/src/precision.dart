@@ -10,10 +10,10 @@ import 'utils.dart';
 const double epsilon = 4.94065645841247E-324;
 
 /// The smallest possible value of an int within 64 bits.
-const int int64MinValue = -9223372036854775808;
+const int int64MinValue = -2147483648;
 
 /// The biggest possible value of an int within 64 bits.
-const int int64MaxValue = 9223372036854775807;
+const int int64MaxValue = 2147483647;
 
 /// The number of binary digits used to represent the binary number for a double
 /// precision floating point value. i.e. there are this many digits used
